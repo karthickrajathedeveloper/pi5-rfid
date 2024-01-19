@@ -1,18 +1,37 @@
-# pi5-rfid
+# rfidpy
 
-Raspberry Pi 5 Interface with RFID-RC522
+The `rfidpy` library is designed to facilitate the interface between Raspberry Pi 5 and RFID technology.
+
+## Usage
+Raspberry pi 5 interface with RFID (MFRC522) reader.
+
+## Requirements
+
+Make sure to install the following libraries before using `rfidpy`:
+
+- [spidev](https://pypi.org/project/spidev/)
+- [gpiod](https://pypi.org/project/gpiod/)
+- [time](https://docs.python.org/3/library/time.html)
+- [logging](https://docs.python.org/3/library/logging.html)
+
+These libraries are mandatory for the proper functioning of `rfidpy`.
 
 ## Installation
+To install rfidpy, you can use the following command:
+```pip install rfidpy ```
 
-Before using the `rfidpy` library on Raspberry Pi 5, make sure to install the SPI-Py library for SPI communication. Run the following commands to install the required dependencies:
+## Sample Program
 
-```sudo apt-get update
-sudo apt-get install python3-dev python3-pip
-sudo pip3 install spidev
-sudo pip3 install rfidpy```
+Here's a simple example of how to use the `rfidpy` library in a Python program:
 
-## Compatibility
-This library is specifically designed for Raspberry Pi 5. Ensure that you are using it in the appropriate environment.
+```python
+from rfidpy import SimpleMFRC522
 
-## Contributing
-If you encounter any issues or have suggestions for improvements, feel free to contribute by submitting a pull request.
+reader = SimpleMFRC522()
+
+while True:
+    id, text = reader.read()
+    print(id)
+```
+## Run program
+```python3 test.py```
