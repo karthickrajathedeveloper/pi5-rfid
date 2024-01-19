@@ -37,7 +37,7 @@ while True:
 ```python3 test.py```
 
 ## Author 
-[@karthickrajathedeveloper](https://github.com/karthickrajathedevelope)
+[karthickrajathedeveloper](https://github.com/karthickrajathedeveloper)
 
 ## LICENSE
 [MIT LICENSE](LICENSE)
