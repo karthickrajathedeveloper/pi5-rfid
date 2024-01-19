@@ -10,7 +10,7 @@ Before using the `rfidpy` library on Raspberry Pi 5, make sure to install the SP
 sudo apt-get update
 sudo apt-get install python3-dev python3-pip
 sudo pip3 install spidev
-sudo pip3 install rfidpy```
+sudo pip3 install rfidpy
 
 ## Compatibility
 This library is specifically designed for Raspberry Pi 5. Ensure that you are using it in the appropriate environment.
