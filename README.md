@@ -35,3 +35,9 @@ while True:
 ```
 ## Run program
 ```python3 test.py```
+
+## Author 
+[@karthickrajathedeveloper](https://github.com/karthickrajathedevelope)
+
+## LICENSE
+[MIT LICENSE](LICENSE)
