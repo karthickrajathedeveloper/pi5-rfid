@@ -18,7 +18,7 @@ These libraries are mandatory for the proper functioning of `rfidpy`.
 
 ## Installation
 To install rfidpy, you can use the following command:
-```pip install rfidpy ```
+```sudo pip3 install rfidpy ```
 
 ## Sample Program
 
@@ -34,7 +34,7 @@ while True:
     print(id)
 ```
 ## Run program
-```python3 test.py```
+```sudo python3 test.py```
 
 ## Author 
 [karthickrajathedeveloper](https://github.com/karthickrajathedeveloper)
